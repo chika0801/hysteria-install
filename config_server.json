@@ -1,0 +1,8 @@
+{
+    "protocol": "udp",
+    "listen": ":16384",
+    "cert": "/root/fullchain.cer",
+    "key": "/root/private.key",
+    "alpn": "h3",
+    "obfs": "pJCGB4ZmQNyYk8jkf9jq"
+}
