@@ -24,25 +24,25 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 - 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，使用WinSCP登录你的VPS，将它们上传到`/root/`目录。(Rename the certificate file to `fullchain.cer` and the private key file to `private.key`, log in to your VPS using WinSCP, upload them to the `/root/` directory.)
 - [用acme申请 SSL 证书](https://github.com/chika0801/Xray-install#1%E7%94%A8acme%E7%94%B3%E8%AF%B7-ssl-%E8%AF%81%E4%B9%A6)
 
-5. 启动程序(Start TUIC)
+5. 启动程序(Start hysteria)
 
 ```
-systemctl daemon-reload && systemctl enable --now tuic
+systemctl daemon-reload && systemctl enable --now hysteria
 ```
 
 ```
-systemctl status tuic
+systemctl status hysteria
 ```
 
 | 项目 | |
 | :--- | :--- |
-| 程序(TUIC file) | /root/tuic |
-| 配置(config) | /root/tuic_config.json |
+| 程序(hysteria file) | /root/hysteria |
+| 配置(config) | /root/hysteria_config.json |
 | 证书(certificate) | /root/fullchain.cer |
 | 私钥(private key) | /root/private.key |
-| systemctl配置(systemctl config) | /etc/systemd/system/tuic.service |
-| 查看日志(view log) | journalctl -u tuic --output cat -e |
-| 实时日志(real-time logs) | journalctl -u tuic --output cat -f |
+| systemctl配置(systemctl config) | /etc/systemd/system/hysteria.service |
+| 查看日志(view log) | journalctl -u hysteria --output cat -e |
+| 实时日志(real-time logs) | journalctl -u hysteria --output cat -f |
 
 ## v2rayN配置指南
 
