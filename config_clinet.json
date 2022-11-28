@@ -1,0 +1,13 @@
+{
+    "protocol": "udp",
+    "server": "10.0.0.1:16384,16386-16486",
+    "server_name": "chika.example.com",
+    "alpn": "h3",
+    "up_mbps": 50,
+    "down_mbps": 150,
+    "obfs": "pJCGB4ZmQNyYk8jkf9jq",
+    "fast_open": true,
+    "socks5": {
+        "listen": "127.0.0.1:50000"
+    }
+}
