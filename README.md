@@ -10,13 +10,13 @@ curl -Lo /root/hysteria https://github.com/apernet/hysteria/releases/latest/down
 2. 下载配置(Download config)
 
 ```
-curl -Lo /root/tuic_config.json https://raw.githubusercontent.com/chika0801/tuic-install/main/config_server.json
+curl -Lo /root/hysteria_config.json https://raw.githubusercontent.com/chika0801/hysteria-install/main/config_server.json
 ```
 
 3. 下载systemctl配置(Download systemctl config)
 
 ```
-curl -Lo /etc/systemd/system/tuic.service https://raw.githubusercontent.com/chika0801/tuic-install/main/tuic.service
+curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/chika0801/hysteria-install/main/hysteria.service
 ```
 
 4. 上传证书和私钥(Upload certificate and private key)
