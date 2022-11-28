@@ -55,9 +55,9 @@ chmod +x /etc/network/if-pre-up.d/iptables
 
 </details>
 
-iptables -t nat -nL --line
-iptables -t nat -D PREROUTING 1
+服务器端正常监听在 16384 端口，在客户端用 chika.example.com:16384,16386-16486 连接即可。
 
+当然，服务端在多个端口可用并不代表客户端一定要使用它们。如果客户端不希望开启端口跳跃，依然可以从这些端口里随便选一个进行连接。
 
 6. 启动程序(Start hysteria)
 
