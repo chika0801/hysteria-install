@@ -26,6 +26,35 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 5. [多端口(端口跳跃)](https://hysteria.network/zh/docs/port-hopping/#%e6%9c%8d%e5%8a%a1%e7%ab%af%e9%85%8d%e7%bd%ae)服务器配置
 
+- 以 Debian 11 为例，将 eth0 上的 UDP 16386-16486 端口转发到 16384 端口：
+
+```
+apt install -y iptables
+```
+
+```
+iptables -t nat -A PREROUTING -i eth0 -p udp --dport 16386:16486 -j DNAT --to-destination :16384
+```
+
+```
+iptables-save > /root/iptables
+```
+
+```
+cat > /etc/network/if-pre-up.d/iptables << EOF
+#!/bin/sh
+/sbin/iptables-restore < /root/iptables
+EOF
+```
+
+```
+chmod +x /etc/network/if-pre-up.d/iptables
+```
+
+iptables -t nat -nL --line
+iptables -t nat -D PREROUTING 1
+
+
 6. 启动程序(Start hysteria)
 
 ```
