@@ -28,6 +28,8 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 - 以 Debian 11 为例，将 eth0 上的 UDP 16386-16486 端口转发到 16384 端口：
 
+<details><summary>点击查看详细步骤</summary>
+
 ```
 apt install -y iptables
 ```
@@ -50,6 +52,8 @@ EOF
 ```
 chmod +x /etc/network/if-pre-up.d/iptables
 ```
+
+</details>
 
 iptables -t nat -nL --line
 iptables -t nat -D PREROUTING 1
