@@ -73,13 +73,13 @@ systemctl status hysteria
 
 | 项目 | |
 | :--- | :--- |
-| 程序(hysteria file) | /root/hysteria |
-| 配置(config) | /root/hysteria_config.json |
-| 证书(certificate) | /root/fullchain.cer |
-| 私钥(private key) | /root/private.key |
-| systemctl配置(systemctl config) | /etc/systemd/system/hysteria.service |
-| 查看日志(view log) | journalctl -u hysteria --output cat -e |
-| 实时日志(real-time logs) | journalctl -u hysteria --output cat -f |
+| 程序 | /root/hysteria |
+| 配置 | /root/hysteria_config.json |
+| 证书 | /root/fullchain.cer |
+| 私钥 | /root/private.key |
+| systemctl配置 | /etc/systemd/system/hysteria.service |
+| 查看日志 | journalctl -u hysteria --output cat -e |
+| 实时日志 | journalctl -u hysteria --output cat -f |
 
 ## v2rayN配置指南
 
