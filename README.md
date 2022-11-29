@@ -1,27 +1,27 @@
-## [hysteria](https://github.com/apernet/hysteria/releases)安装指南(Quick Installation Guide)
+## [hysteria](https://github.com/apernet/hysteria/releases)安装指南
 
-1. 下载程序(Download hysteria)
+1. 下载程序
 
 linux-amd64
 ```
 curl -Lo /root/hysteria https://github.com/apernet/hysteria/releases/latest/download/hysteria-linux-amd64 && chmod +x /root/hysteria
 ```
 
-2. 下载配置(Download config)
+2. 下载配置
 
 ```
 curl -Lo /root/hysteria_config.json https://raw.githubusercontent.com/chika0801/hysteria-install/main/config_server.json
 ```
 
-3. 下载systemctl配置(Download systemctl config)
+3. 下载systemctl配置
 
 ```
 curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/chika0801/hysteria-install/main/hysteria.service
 ```
 
-4. 上传证书和私钥(Upload certificate and private key)
+4. 上传证书和私钥
 
-- 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，使用WinSCP登录你的VPS，将它们上传到`/root/`目录。(Rename the certificate file to `fullchain.cer` and the private key file to `private.key`, log in to your VPS using WinSCP, upload them to the `/root/` directory.)
+- 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，使用WinSCP登录你的VPS，将它们上传到`/root/`目录。
 - [用acme申请 SSL 证书](https://github.com/chika0801/Xray-install#1%E7%94%A8acme%E7%94%B3%E8%AF%B7-ssl-%E8%AF%81%E4%B9%A6)
 
 5. [多端口(端口跳跃)](https://hysteria.network/zh/docs/port-hopping/)服务器配置
