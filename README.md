@@ -1,8 +1,7 @@
 ## [hysteria](https://github.com/apernet/hysteria/releases)安装指南
 
-1. 下载程序
+1. 下载程序(linux-amd64)
 
-linux-amd64
 ```
 curl -Lo /root/hysteria https://github.com/apernet/hysteria/releases/latest/download/hysteria-linux-amd64 && chmod +x /root/hysteria
 ```
