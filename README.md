@@ -98,6 +98,7 @@ systemctl status hysteria
 | 选项 | 值 |
 | :--- | :--- |
 | 服务器节点类型 | Hysteria |
+| 别名（可选） | VPS的地点 |
 | 服务器地址 | VPS的IP |
 | 端口 | 16384 |
 | 传输协议 | udp |
