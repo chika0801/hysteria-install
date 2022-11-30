@@ -1,6 +1,6 @@
 ## [hysteria](https://github.com/apernet/hysteria/releases)安装指南
 
-1. 下载程序(linux-amd64)
+1. 下载程序（linux-amd64）
 
 ```
 curl -Lo /root/hysteria https://github.com/apernet/hysteria/releases/latest/download/hysteria-linux-amd64 && chmod +x /root/hysteria
@@ -22,7 +22,7 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 - 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，使用WinSCP登录你的VPS，将它们上传到`/root/`目录。
 
-5. [多端口(端口跳跃)](https://hysteria.network/zh/docs/port-hopping/)服务器配置
+5. [多端口（端口跳跃）](https://hysteria.network/zh/docs/port-hopping/)服务器配置
 
 - 以 Debian 11 为例，将 eth0 上的 UDP 16386-16486 端口转发到 16384 端口。
 
