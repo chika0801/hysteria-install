@@ -59,7 +59,7 @@ chmod +x /etc/network/if-pre-up.d/iptables
 
 </details>
 
-6. 启动程序(Start hysteria)
+6. 启动程序
 
 ```
 systemctl daemon-reload && systemctl enable --now hysteria
