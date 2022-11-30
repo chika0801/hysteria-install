@@ -93,6 +93,8 @@ apt install -y iptables
 iptables -t nat -A PREROUTING -i eth0 -p udp --dport 16386:16486 -j DNAT --to-destination :16384
 ```
 
+</details>
+
 6. 启动程序
 
 ```
