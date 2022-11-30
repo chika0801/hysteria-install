@@ -1,6 +1,4 @@
 [Unit]
-Description=Hysteria, a feature-packed network utility optimized for networks of poor quality.
-Documentation=https://github.com/apernet/hysteria
 After=network.target
 
 [Service]
