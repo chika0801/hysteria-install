@@ -32,7 +32,7 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 - 当然，服务端在多个端口可用并不代表客户端一定要使用它们。如果客户端不希望开启端口跳跃，依然可以从这些端口里随便选一个进行连接。
 
-<details><summary>点击查看详细步骤</summary>
+<details><summary>Debian 10/11 点击查看详细步骤</summary>
 
 安装
 
