@@ -59,11 +59,13 @@ EOF
 chmod +x /etc/network/if-pre-up.d/iptables
 ```
 
-删除
+查看
 
 ```
 iptables -t nat -nL --line
 ```
+
+删除
 
 ```
 iptables -t nat -D PREROUTING 1
