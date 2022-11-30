@@ -79,6 +79,20 @@ iptables-save > /root/iptables
 
 </details>
 
+<details><summary>Ubuntu 18.04/20.04 点击查看详细步骤</summary>
+
+安装
+
+```
+apt install -y iptables
+```
+
+添加
+
+```
+iptables -t nat -A PREROUTING -i eth0 -p udp --dport 16386:16486 -j DNAT --to-destination :16384
+```
+
 6. 启动程序
 
 ```
