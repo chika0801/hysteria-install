@@ -34,6 +34,8 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 <details><summary>点击查看详细步骤</summary>
 
+安装
+
 ```
 apt install -y iptables
 ```
