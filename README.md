@@ -34,6 +34,8 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 <details><summary>点击查看详细步骤</summary>
 
+添加
+
 ```
 apt install -y iptables
 ```
@@ -55,6 +57,20 @@ EOF
 
 ```
 chmod +x /etc/network/if-pre-up.d/iptables
+```
+
+删除
+
+```
+iptables -t nat -nL --line
+```
+
+```
+iptables -t nat -D PREROUTING 1
+```
+
+```
+iptables-save > /root/iptables
 ```
 
 </details>
