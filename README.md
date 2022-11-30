@@ -21,7 +21,6 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 4. 上传证书和私钥
 
 - 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，使用WinSCP登录你的VPS，将它们上传到`/root/`目录。
-- [用acme申请 SSL 证书](https://github.com/chika0801/Xray-install#1%E7%94%A8acme%E7%94%B3%E8%AF%B7-ssl-%E8%AF%81%E4%B9%A6)
 
 5. [多端口(端口跳跃)](https://hysteria.network/zh/docs/port-hopping/)服务器配置
 
