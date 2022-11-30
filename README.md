@@ -114,7 +114,7 @@ systemctl status hysteria
 | 服务器节点类型 | Hysteria |
 | 别名（可选） |  |
 | 服务器地址 | VPS的IP |
-| 端口 | 16386 |
+| 端口 | 16384 |
 | 传输协议 | udp |
 | 验证类型 | 已禁用 |
 | QUIC 连接接收窗口 | 4194304 |
