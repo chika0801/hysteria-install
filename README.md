@@ -100,14 +100,13 @@ systemctl status hysteria
 | 服务器地址 | VPS的IP |
 | 端口 | 16384 |
 | 传输协议 | udp |
-| 验证类型 | string |
-| 验证载荷 | chika |
+| 验证类型 | 已禁用 |
 | QUIC 连接接收窗口 | 4194304 |
 | QUIC 流接收窗口 | 1677721 |
 | 禁用 MTU 探测 | 不勾 |
 | 上行链路容量 | 50 |
 | 下行链路容量 | 150 |
-| 混淆密码（可选） | 留空 |
+| 混淆密码（可选） | pJCGB4ZmQNyYk8jkf9jq |
 | TLS 主机名 | 证书中包含的域名 |
 | QUIC TLS ALPN | h3 |
 | 允许不安全连接 | 不勾 |
