@@ -32,12 +32,12 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 - 当然，服务端在多个端口可用并不代表客户端一定要使用它们。如果客户端不希望开启端口跳跃，依然可以从这些端口里随便选一个进行连接。
 
-<details><summary>Debian 10/11 点击查看详细步骤</summary>
+<details><summary>点击查看详细步骤</summary>
 
 安装
 
 ```
-apt install -y iptables
+apt install -y iptables-persistent
 ```
 
 添加
@@ -47,18 +47,7 @@ iptables -t nat -A PREROUTING -i eth0 -p udp --dport 16386:16486 -j DNAT --to-de
 ```
 
 ```
-iptables-save > /root/iptables
-```
-
-```
-cat > /etc/network/if-pre-up.d/iptables << EOF
-#!/bin/sh
-/sbin/iptables-restore < /root/iptables
-EOF
-```
-
-```
-chmod +x /etc/network/if-pre-up.d/iptables
+netfilter-persistent save
 ```
 
 查看
@@ -74,26 +63,8 @@ iptables -t nat -D PREROUTING 1
 ```
 
 ```
-iptables-save > /root/iptables
+netfilter-persistent save
 ```
-
-</details>
-
-<details><summary>Ubuntu 18.04/20.04 点击查看详细步骤</summary>
-
-安装
-
-```
-apt install -y iptables
-```
-
-添加
-
-```
-iptables -t nat -A PREROUTING -i eth0 -p udp --dport 16386:16486 -j DNAT --to-destination :16384
-```
-
-重启后需再次添加
 
 </details>
 
