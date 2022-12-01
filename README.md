@@ -82,7 +82,7 @@ systemctl status hysteria
 | :--- | :--- |
 | 程序 | /root/hysteria |
 | 配置 | /root/hysteria_config.json |
-| 检查配置 | /root/hysteria server -c hysteria_config.json |
+| 检查 | /root/hysteria server -c hysteria_config.json |
 | 证书 | /root/fullchain.cer |
 | 私钥 | /root/private.key |
 | systemctl配置 | /etc/systemd/system/hysteria.service |
