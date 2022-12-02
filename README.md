@@ -124,24 +124,37 @@ systemctl status hysteria
 
 ## PassWall配置指南
 
-| 选项 | 值 |
-| :--- | :--- |
-| 节点备注 |  |
-| 类型 | Hysteria |
-| 地址 | VPS的IP |
-| 端口 | 16384 |
-| 端口跳跃额外端口 | 16386-16486 |
-| 协议名称 | UDP |
-| 混淆密码 | pJCGB4ZmQNyYk8jkf9jq |
-| 认证类型 | 禁用 |
-| QUIC TLS ALPN | h3 |
-| 域名 | 证书中包含的域名 |
-| 允许不安全连接 | 不勾 |
-| 最大上行(Mbps) | 50 |
-| 最大下行(Mbps) | 150 |
-| QUIC 流接收窗口 | 1677721 |
-| QUIC 连接接收窗口 | 4194304 |
-| 握手超时 | 30 |
-| 空闲超时 | 20 |
-| 端口跳跃时间 | 10 |
-| 禁用 MTU 检测 | 不勾 |
+| 选项 | 值 | 对应参数 |
+| :--- | :--- | :--- |
+| 节点备注 |  |  |
+| 类型 | Hysteria |  |
+| 地址 | VPS的IP | "server" |
+| 端口 | 16384 | "server" |
+| 端口跳跃额外端口 | 16386-16486 | "server" |
+| 协议名称 | UDP | "protocol" |
+| 混淆密码 | pJCGB4ZmQNyYk8jkf9jq | "obfs" |
+| 认证类型 | 禁用 |  |
+| QUIC TLS ALPN | h3 | "alpn" |
+| 域名 | 证书中包含的域名 | "server_name" |
+| 允许不安全连接 | 不勾 | "insecure" |
+| 最大上行(Mbps) | 50 | "up_mbps" |
+| 最大下行(Mbps) | 150 | "down_mbps" |
+| QUIC 流接收窗口 | 1677721 | "recv_window_conn" |
+| QUIC 连接接收窗口 | 4194304 | "recv_window" |
+| 握手超时 | 留空 | "handshake_timeout" |
+| 空闲超时 | 留空 | "idle_timeout" |
+| 端口跳跃时间 | 留空 | "hop_interval" |
+| 禁用 MTU 检测 | 不勾 | "disable_mtu_discovery" |
+
+
+
+
+
+
+
+
+
+
+
+
+
