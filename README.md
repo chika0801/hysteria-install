@@ -88,6 +88,8 @@ systemctl status hysteria
 
 ## v2rayN配置指南
 
+<details><summary>点击查看</summary>
+
 1. 下载Windows客户端程序[hysteria-windows-amd64.exe](https://github.com/HyNetwork/hysteria/releases/latest/download/hysteria-windows-amd64.exe)，重命令为`hysteria.exe`，复制到v2rayN文件夹。
 
 2. 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/hysteria-install/main/config_clinet.json)，修改`chika.example.com`为证书中包含的域名，修改`10.0.0.1`为VPS的IP。
@@ -98,7 +100,11 @@ systemctl status hysteria
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
+</details>
+
 ## SagerNet配置指南
+
+<details><summary>点击查看</summary>
 
 | 选项 | 值 |
 | :--- | :--- |
@@ -118,7 +124,11 @@ systemctl status hysteria
 | QUIC 连接接收窗口 | 4194304 |
 | 禁用路径最大传输单元发现 | 不勾 |
 
+</details>
+
 ## ShadowSocksR Plus+配置指南
+
+<details><summary>点击查看</summary>
 
 | 选项 | 值 | 对应参数 |
 | :--- | :--- | :--- |
@@ -142,7 +152,11 @@ systemctl status hysteria
 | 启用自动切换 | 不勾 |  |
 | 本地端口 | 1234 |  |
 
+</details>
+
 ## PassWall配置指南
+
+<details><summary>点击查看</summary>
 
 | 选项 | 值 | 对应参数 |
 | :--- | :--- | :--- |
@@ -166,15 +180,4 @@ systemctl status hysteria
 | 端口跳跃时间 | 留空 | "hop_interval" |
 | 禁用 MTU 检测 | 不勾 | "disable_mtu_discovery" |
 
-
-
-
-
-
-
-
-
-
-
-
-
+</details>
