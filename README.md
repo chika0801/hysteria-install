@@ -1,4 +1,4 @@
-## [hysteria](https://github.com/apernet/hysteria/releases)安装指南
+## [hysteria](https://github.com/apernet/hysteria/releases) 安装指南
 
 1. 下载程序（linux-amd64）
 
@@ -86,7 +86,7 @@ systemctl status hysteria
 | 查看日志 | journalctl -u hysteria --output cat -e |
 | 实时日志 | journalctl -u hysteria --output cat -f |
 
-## v2rayN配置指南
+## v2rayN 5.x 配置指南
 
 1. 下载Windows客户端程序[hysteria-windows-amd64.exe](https://github.com/HyNetwork/hysteria/releases/latest/download/hysteria-windows-amd64.exe)，重命令为`hysteria.exe`，复制到v2rayN文件夹。
 
@@ -98,7 +98,7 @@ systemctl status hysteria
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
-## SagerNet配置指南
+## SagerNet 配置指南
 
 <details><summary>点击查看</summary>
 
@@ -122,7 +122,7 @@ systemctl status hysteria
 
 </details>
 
-## ShadowSocksR Plus+配置指南
+## ShadowSocksR Plus+ 配置指南
 
 <details><summary>点击查看</summary>
 
@@ -150,7 +150,7 @@ systemctl status hysteria
 
 </details>
 
-## PassWall配置指南
+## PassWall 配置指南
 
 <details><summary>点击查看</summary>
 
