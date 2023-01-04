@@ -122,8 +122,6 @@ systemctl status hysteria
 
 </details>
 
-
-
 ## Shadowrocket 配置指南
 
 <details><summary>点击查看</summary>
@@ -134,7 +132,8 @@ systemctl status hysteria
 | 类型 | Hysteria |
 | 地址 | VPS的IP |
 | 端口 | 16384,16386-16486 |
-| 密码 | chika |
+| 密码 | 留空 |
+| 混淆 | pJCGB4ZmQNyYk8jkf9jq |
 | 协议 | UDP |
 | 允许不安全 | 不选 |
 | UDP转发 | 选上 |
@@ -146,8 +145,6 @@ systemctl status hysteria
 | 备注 | 留空 |
 
 </details>
-
-
 
 ## ShadowSocksR Plus+ 配置指南
 
