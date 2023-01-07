@@ -106,7 +106,7 @@ systemctl status hysteria
 | :--- | :--- |
 | 配置名称 |  |
 | 服务器 | VPS的IP |
-| 服务器端口 | 16384 |
+| 服务器端口 | 16385 |
 | 混淆密码 | pJCGB4ZmQNyYk8jkf9jq |
 | 认证类型 | 已停用 |
 | 协议 | UDP |
@@ -131,7 +131,7 @@ systemctl status hysteria
 | 配置名称 |  |
 | 类型 | Hysteria |
 | 地址 | VPS的IP |
-| 端口 | 16384,16386-16486 |
+| 端口 | 16385,16387-16485 |
 | 密码 | 留空 |
 | 混淆 | pJCGB4ZmQNyYk8jkf9jq |
 | 协议 | UDP |
@@ -155,7 +155,7 @@ systemctl status hysteria
 | 服务器节点类型 | Hysteria |
 | 别名（可选） |  |
 | 服务器地址 | VPS的IP | "server" |
-| 端口 | 16384 | "server" |
+| 端口 | 16385 | "server" |
 | 传输协议 | udp | "protocol" |
 | 验证类型 | 已禁用 |  |
 | QUIC 连接接收窗口 | 4194304 | "recv_window" |
@@ -183,8 +183,8 @@ systemctl status hysteria
 | 节点备注 |  |  |
 | 类型 | Hysteria |  |
 | 地址 | VPS的IP | "server" |
-| 端口 | 16384 | "server" |
-| 端口跳跃额外端口 | 16386-16486 | "server" |
+| 端口 | 16385 | "server" |
+| 端口跳跃额外端口 | 16387-16485 | "server" |
 | 协议名称 | UDP | "protocol" |
 | 混淆密码 | pJCGB4ZmQNyYk8jkf9jq | "obfs" |
 | 认证类型 | 禁用 |  |
