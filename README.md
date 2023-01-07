@@ -9,7 +9,7 @@ curl -Lo /root/hysteria https://github.com/apernet/hysteria/releases/latest/down
 2. 下载配置
 
 ```
-curl -Lo /root/hysteria_config.json https://raw.githubusercontent.com/chika0801/hysteria-install/main/config_server.json
+curl -Lo /root/hysteria_config.json https://raw.githubusercontent.com/chika0801/hysteria-install/main/config_server.json && curl -Lo /root/cn.acl https://raw.githubusercontent.com/chika0801/hysteria-install/main/cn.acl
 ```
 
 3. 下载systemctl配置
