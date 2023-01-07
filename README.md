@@ -26,7 +26,7 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 - 以 Debian 11 为例，将 eth0 上的 UDP 16387-16485 端口转发到 16385 端口。
 
-- 服务器端正常监听在 16385 端口，在客户端用 chika.example.com:16385,16387-16485 连接即可。
+- 服务器端正常监听在 16385 端口，在客户端用 VPS的IP:16385,16387-16485 连接即可。
 
 - chika.example.com:16385,16387-16485 表示服务器在 16385 和 16387-16485 端口上可用（共 100 个端口）。
 
