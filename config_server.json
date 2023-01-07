@@ -4,5 +4,6 @@
     "cert": "fullchain.cer",
     "key": "private.key",
     "alpn": "h3",
+    "acl": "cn.acl",
     "obfs": "pJCGB4ZmQNyYk8jkf9jq"
 }
