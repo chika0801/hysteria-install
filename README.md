@@ -24,11 +24,11 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 5. [多端口（端口跳跃）](https://hysteria.network/zh/docs/port-hopping/)服务器配置
 
-- 以 Debian 11 为例，将 eth0 上的 UDP 16386-16486 端口转发到 16384 端口。
+- 以 Debian 11 为例，将 eth0 上的 UDP 16387-16485 端口转发到 16385 端口。
 
-- 服务器端正常监听在 16384 端口，在客户端用 chika.example.com:16384,16386-16486 连接即可。
+- 服务器端正常监听在 16385 端口，在客户端用 chika.example.com:16385,16387-16485 连接即可。
 
-- chika.example.com:16384,16386-16486 表示服务器在 16384 和 16386-16486 端口上可用（共 102 个端口）。
+- chika.example.com:16385,16387-16485 表示服务器在 16385 和 16387-16485 端口上可用（共 100 个端口）。
 
 - 当然，服务端在多个端口可用并不代表客户端一定要使用它们。如果客户端不希望开启端口跳跃，依然可以从这些端口里随便选一个进行连接。
 
@@ -43,7 +43,7 @@ apt install -y iptables-persistent
 添加
 
 ```
-iptables -t nat -A PREROUTING -i eth0 -p udp --dport 16386:16486 -j DNAT --to-destination :16384
+iptables -t nat -A PREROUTING -i eth0 -p udp --dport 16387:16485 -j DNAT --to-destination :16385
 ```
 
 ```
