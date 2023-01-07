@@ -37,7 +37,7 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 安装
 
 ```
-apt install -y iptables-persistent
+apt install -y iptables iptables-persistent
 ```
 
 添加
