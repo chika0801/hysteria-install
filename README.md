@@ -190,7 +190,7 @@ systemctl status hysteria
 | 端口跳跃额外端口 | 16387-16485 | "server" |
 | 传输协议 | UDP | "protocol" |
 | 混淆密码 | pJCGB4ZmQNyYk8jkf9jq | "obfs" |
-| 认证类型 | 禁用 |  |
+| 认证类型 | 停用 |  |
 | QUIC TLS ALPN | h3 | "alpn" |
 | 快速打开 | 勾上 | "fast_open" |
 | 域名 | 证书中包含的域名 | "server_name" |
