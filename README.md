@@ -184,9 +184,8 @@ systemctl status hysteria
 
 | 选项 | 值 | 对应参数 |
 | :--- | :--- | :--- |
-| 节点备注 |  |  |
 | 类型 | Hysteria |  |
-| 地址 | VPS的IP | "server" |
+| 地址（支持域名） | VPS的IP | "server" |
 | 端口 | 16385 | "server" |
 | 端口跳跃额外端口 | 16387-16485 | "server" |
 | 传输协议 | UDP | "protocol" |
