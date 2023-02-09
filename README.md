@@ -110,8 +110,9 @@ systemctl status hysteria
 | :--- | :--- |
 | 服务器 | VPS的IP |
 | 服务器端口 | 16385 |
-| 混淆密码 | pJCGB4ZmQNyYk8jkf9jq |
-| 认证类型 | 已停用 |
+| 混淆密码 | 留空 |
+| 认证类型 | STRING |
+| 认证载荷 | chika |
 | 协议 | UDP |
 | 服务器名称指示 | 证书中包含的域名 |
 | 应用层协议协商 | h3 |
@@ -134,8 +135,8 @@ systemctl status hysteria
 | 类型 | Hysteria |
 | 地址 | VPS的IP |
 | 端口 | 16385,16387-16485 |
-| 密码 | 留空 |
-| 混淆 | pJCGB4ZmQNyYk8jkf9jq |
+| 密码 | chika |
+| 混淆 | 留空 |
 | 协议 | UDP |
 | 允许不安全 | 不选 |
 | UDP转发 | 选上 |
@@ -158,13 +159,14 @@ systemctl status hysteria
 | 服务器地址 | VPS的IP | "server" |
 | 端口 | 16385 | "server" |
 | 传输协议 | udp | "protocol" |
-| 验证类型 | 已禁用 |  |
+| 验证类型 | string |  |
+| 验证载荷 | chika | "auth_str" |
 | QUIC 连接接收窗口 | 16777216 | "recv_window" |
 | QUIC 流接收窗口 | 6710886 | "recv_window_conn" |
 | 禁用 MTU 探测 | 不勾 | "disable_mtu_discovery" |
 | 上行链路容量 | 50 | "up_mbps" |
 | 下行链路容量 | 150 | "down_mbps" |
-| 混淆密码（可选） | pJCGB4ZmQNyYk8jkf9jq | "obfs" |
+| 混淆密码（可选） | 留空 | "obfs" |
 | TLS 主机名 | 证书中包含的域名 | "server_name" |
 | QUIC TLS ALPN | h3 | "alpn" |
 | 允许不安全连接 | 不勾 | "insecure" |
@@ -186,8 +188,9 @@ systemctl status hysteria
 | 端口 | 16385 | "server" |
 | 端口跳跃额外端口 | 16387-16485 | "server" |
 | 传输协议 | UDP | "protocol" |
-| 混淆密码 | pJCGB4ZmQNyYk8jkf9jq | "obfs" |
-| 认证类型 | 停用 |  |
+| 混淆密码 | 留空 | "obfs" |
+| 认证类型 | STRING |  |
+| 认证密码 | chika | "auth_str" |
 | QUIC TLS ALPN | h3 | "alpn" |
 | 快速打开 | 勾上 | "fast_open" |
 | 域名 | 证书中包含的域名 | "server_name" |
