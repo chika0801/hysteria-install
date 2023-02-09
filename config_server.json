@@ -1,9 +1,14 @@
 {
     "protocol": "udp",
     "listen": ":16385",
-    "cert": "fullchain.cer",
-    "key": "private.key",
+    "cert": "/root/fullchain.cer",
+    "key": "/root/private.key",
     "alpn": "h3",
     "acl": "block_http3.acl",
-    "obfs": "pJCGB4ZmQNyYk8jkf9jq"
+    "auth": {
+        "mode": "passwords",
+        "config": [
+            "chika"
+        ]
+    }
 }
