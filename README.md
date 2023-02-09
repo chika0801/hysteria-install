@@ -108,7 +108,6 @@ systemctl status hysteria
 
 | 选项 | 值 |
 | :--- | :--- |
-| 配置名称 |  |
 | 服务器 | VPS的IP |
 | 服务器端口 | 16385 |
 | 混淆密码 | pJCGB4ZmQNyYk8jkf9jq |
@@ -132,7 +131,6 @@ systemctl status hysteria
 
 | 选项 | 值 |
 | :--- | :--- |
-| 配置名称 |  |
 | 类型 | Hysteria |
 | 地址 | VPS的IP |
 | 端口 | 16385,16387-16485 |
