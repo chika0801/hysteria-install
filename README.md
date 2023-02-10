@@ -24,14 +24,6 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 5. [多端口（端口跳跃）](https://hysteria.network/zh/docs/port-hopping/)服务器配置
 
-- 以 Debian 11 为例，将 eth0 上的 UDP 16387-16485 端口转发到 16385 端口。
-
-- 服务器端正常监听在 16385 端口，在客户端用 VPS的IP:16385,16387-16485 连接即可。
-
-- VPS的IP:16385,16387-16485 表示服务器在 16385 和 16387-16485 端口上可用（共 100 个端口）。
-
-- 当然，服务端在多个端口可用并不代表客户端一定要使用它们。如果客户端不希望开启端口跳跃，依然可以从这些端口里随便选一个进行连接。
-
 <details><summary>点击查看详细步骤</summary>
 
 安装
