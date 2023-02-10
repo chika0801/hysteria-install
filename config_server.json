@@ -4,7 +4,6 @@
     "cert": "/root/fullchain.cer",
     "key": "/root/private.key",
     "alpn": "h3",
-    "acl": "block_http3.acl",
     "auth": {
         "mode": "passwords",
         "config": [
