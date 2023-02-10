@@ -22,7 +22,7 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 - 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，将它们上传到`/root/`目录。
 
-5. [多端口（端口跳跃）](https://hysteria.network/zh/docs/port-hopping/)服务器配置
+5. [多端口（端口跳跃）](https://hysteria.network/zh/docs/port-hopping/)配置
 
 <details><summary>点击查看详细步骤</summary>
 
