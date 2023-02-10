@@ -1,2 +1,0 @@
-block all udp/443
-direct all
