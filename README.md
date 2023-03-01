@@ -1,4 +1,4 @@
-## [hysteria](https://github.com/apernet/hysteria/releases) 安装指南
+## [hysteria](https://github.com/apernet/hysteria) 安装指南
 
 1. 下载程序（linux-amd64）
 
