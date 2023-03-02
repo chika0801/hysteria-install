@@ -92,7 +92,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 ## SagerNet 配置指南
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 | 选项 | 值 |
 | :--- | :--- |
@@ -116,7 +116,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 ## Shadowrocket 配置指南
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 | 选项 | 值 |
 | :--- | :--- |
@@ -139,7 +139,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 ## ShadowSocksR Plus+ 配置指南
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 | 选项 | 值 | 对应参数 |
 | :--- | :--- | :--- |
@@ -167,7 +167,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 ## PassWall 配置指南
 
-<details><summary>点击查看</summary>
+<details><summary>点击查看</summary><br>
 
 | 选项 | 值 | 对应参数 |
 | :--- | :--- | :--- |
