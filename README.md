@@ -15,7 +15,7 @@ curl -Lo /root/hysteria_config.json https://raw.githubusercontent.com/chika0801/
 3. 下载systemctl配置
 
 ```
-curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/chika0801/hysteria-install/main/hysteria.service
+curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/chika0801/hysteria-install/main/hysteria.service && systemctl daemon-reload
 ```
 
 4. 上传证书和私钥
@@ -63,11 +63,7 @@ netfilter-persistent save
 6. 启动程序
 
 ```
-systemctl daemon-reload && systemctl enable --now hysteria
-```
-
-```
-systemctl status hysteria
+systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 ```
 
 | 项目 | |
