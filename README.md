@@ -1,6 +1,6 @@
 ## [hysteria](https://github.com/apernet/hysteria) 安装指南
 
-1. 下载程序（linux-amd64）
+1. 下载程序（**linux-amd64**）
 
 ```
 curl -Lo /root/hysteria https://github.com/apernet/hysteria/releases/latest/download/hysteria-linux-amd64 && chmod +x /root/hysteria
@@ -20,7 +20,7 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 4. 上传证书和私钥
 
-- 将证书文件改名为`fullchain.cer`，将私钥文件改名为`private.key`，将它们上传到`/root`目录。
+- 将证书文件改名为 **fullchain.cer**，将私钥文件改名为 **private.key**，将它们上传到 **/root** 目录。
 
 5. [多端口（端口跳跃）](https://hysteria.network/zh/docs/port-hopping/)配置
 
@@ -68,8 +68,8 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 | 项目 | |
 | :--- | :--- |
-| 程序 | /root/hysteria |
-| 配置 | /root/hysteria_config.json |
+| 程序 | **/root/hysteria** |
+| 配置 | **/root/hysteria_config.json** |
 | 检查 | `/root/hysteria server -c hysteria_config.json` |
 | 查看日志 | `journalctl -u hysteria --output cat -e` |
 | 实时日志 | `journalctl -u hysteria --output cat -f` |
