@@ -24,7 +24,7 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 5. [多端口（端口跳跃）](https://hysteria.network/zh/docs/port-hopping/)配置
 
-<details><summary>点击查看详细步骤</summary><br>
+<details><summary>点击查看</summary><br>
 
 安装
 
