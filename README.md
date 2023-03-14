@@ -133,7 +133,6 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 | ALPN | h3 |
 | 上行速度 | 20 |
 | 下行速度 | 100 |
-| 备注 | 留空 |
 
 </details>
 
