@@ -175,7 +175,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 | 地址（支持域名） | VPS的IP | "server" |
 | 端口 | 16385 | "server" |
 | 端口跳跃额外端口 | 16387-16485 | "server" |
-| 传输协议 | UDP | "protocol" |
+| 协议 | UDP | "protocol" |
 | 混淆密码 | 留空 | "obfs" |
 | 认证类型 | STRING |  |
 | 认证密码 | chika | "auth_str" |
