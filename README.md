@@ -165,7 +165,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 </details>
 
-## PassWall 配置示例
+## Pass Wall 配置示例
 
 <details><summary>点击查看</summary><br>
 
