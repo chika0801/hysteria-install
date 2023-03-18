@@ -90,30 +90,6 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 </details>
 
-## SagerNet 配置示例
-
-<details><summary>点击查看</summary><br>
-
-| 选项 | 值 |
-| :--- | :--- |
-| 服务器 | VPS的IP |
-| 服务器端口 | 16385 |
-| 混淆密码 | 留空 |
-| 认证类型 | STRING |
-| 认证载荷 | chika |
-| 协议 | UDP |
-| 服务器名称指示 | 证书中包含的域名 |
-| 应用层协议协商 | h3 |
-| 证书（链） | 留空 |
-| 允许不安全的连接 | 不勾 |
-| 最大上行（Mbps） | 20 |
-| 最大下行（Mbps） | 100 |
-| QUIC 流接收窗口 | 6710886 |
-| QUIC 连接接收窗口 | 16777216 |
-| 禁用路径最大传输单元发现 | 不勾 |
-
-</details>
-
 ## Shadowrocket 配置示例
 
 <details><summary>点击查看</summary><br>
@@ -164,7 +140,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 </details>
 
-## Pass Wall 配置示例
+## PassWall 配置示例
 
 <details><summary>点击查看</summary><br>
 
