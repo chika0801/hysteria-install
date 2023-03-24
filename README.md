@@ -74,7 +74,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 | 查看日志 | `journalctl -u hysteria --output cat -e` |
 | 实时日志 | `journalctl -u hysteria --output cat -f` |
 
-## v2rayN 6.X 配置示例
+## v2rayN - V6.X 配置示例
 
 <details><summary>点击查看</summary>
 
