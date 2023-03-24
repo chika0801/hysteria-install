@@ -74,17 +74,17 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 | 查看日志 | `journalctl -u hysteria --output cat -e` |
 | 实时日志 | `journalctl -u hysteria --output cat -f` |
 
-## v2rayN 5.x 配置示例
+## v2rayN 6.X 配置示例
 
 <details><summary>点击查看</summary>
 
-1. 下载Windows客户端程序[hysteria-windows-amd64.exe](https://github.com/apernet/hysteria/releases/latest/download/hysteria-windows-amd64.exe)，重命令为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
+1. 下载Windows客户端程序[hysteria-windows-amd64.exe](https://github.com/apernet/hysteria/releases/latest/download/hysteria-windows-amd64.exe)，重命名为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
 
 2. 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/hysteria-install/main/config_client.json)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
-3. 服务器 ——> 添加自定义配置服务器 ——> 浏览(B) ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
+3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
 
-![1](https://user-images.githubusercontent.com/88967758/195763557-f9706952-f2fc-466f-9787-bf00d138562d.jpg)
+![1](https://user-images.githubusercontent.com/88967758/227561005-6cbef387-feb1-449c-97d6-08bc377a2123.png)
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
