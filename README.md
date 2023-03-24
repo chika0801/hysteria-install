@@ -84,7 +84,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
 
-![1](https://user-images.githubusercontent.com/88967758/227561005-6cbef387-feb1-449c-97d6-08bc377a2123.png)
+![1](https://user-images.githubusercontent.com/88967758/227562172-1f811375-69b1-4f1e-938b-68abb13f0278.png)
 
 小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
 
