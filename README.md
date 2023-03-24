@@ -78,7 +78,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 <details><summary>点击查看</summary>
 
-1. 下载Windows客户端程序[hysteria-windows-amd64.exe](https://github.com/apernet/hysteria/releases/latest/download/hysteria-windows-amd64.exe)，重命令为hysteria.exe，复制到v2rayN文件夹。
+1. 下载Windows客户端程序[hysteria-windows-amd64.exe](https://github.com/apernet/hysteria/releases/latest/download/hysteria-windows-amd64.exe)，重命令为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
 
 2. 下载客户端配置[config_client.json](https://raw.githubusercontent.com/chika0801/hysteria-install/main/config_client.json)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
