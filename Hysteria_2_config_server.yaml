@@ -1,0 +1,15 @@
+listen: :443
+
+tls:
+  cert: /root/fullchain.cer
+  key: /root/private.key
+
+auth:
+  type: password
+  password: chika
+
+masquerade:
+  type: proxy
+  proxy:
+    url: https://www.deepl.com
+    rewriteHost: true
