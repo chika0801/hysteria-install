@@ -123,7 +123,6 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 | :--- | :--- |
 | 程序 | **/root/hysteria** |
 | 配置 | **/root/hysteria_config.json** |
-| 检查 | `/root/hysteria server -c hysteria_config.json` |
 | 查看日志 | `journalctl -u hysteria --output cat -e` |
 | 实时日志 | `journalctl -u hysteria --output cat -f` |
 
