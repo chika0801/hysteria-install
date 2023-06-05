@@ -1,0 +1,15 @@
+server: 10.0.0.1
+
+auth: chika
+
+tls:
+  sni: chika.example.com
+
+bandwidth:
+  up: 50 mbps
+  down: 150 mbps
+
+fastOpen: true
+
+socks5:
+  listen: 127.0.0.1:50000
