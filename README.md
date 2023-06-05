@@ -51,7 +51,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 </details>
 
-## [hysteria](https://github.com/apernet/hysteria) 安装指南
+## [Hysteria](https://github.com/apernet/hysteria) 安装指南
 
 1. 下载程序（**linux-amd64**）
 
