@@ -20,5 +20,4 @@ echo $HY_APP_PLATFORMS
 git clone -b wip-hy2 --single-branch https://github.com/apernet/hysteria.git hy2
 cd hy2
 python3 ./hyperbole.py build
-cd ..
 ```
