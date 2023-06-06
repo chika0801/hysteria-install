@@ -17,4 +17,5 @@ cd hy2
 export HY_APP_PLATFORMS="windows/amd64,linux/amd64"
 echo $HY_APP_PLATFORMS
 python3 ./hyperbole.py build
+cd ..
 ```
