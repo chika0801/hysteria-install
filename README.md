@@ -43,7 +43,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 1. 下载自己编译的Windows客户端程序hysteria-windows-amd64.exe，重命名为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
 
-2. 下载客户端配置[Hysteria_2_config_client.yaml](https://raw.githubusercontent.com/chika0801/hysteria-install/main/Hysteria_2_config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
+2. 下载客户端配置[Hysteria_2_config_client.yaml](https://github.com/chika0801/hysteria-install/blob/main/Hysteria_2_config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
 3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
 
