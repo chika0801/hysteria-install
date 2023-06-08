@@ -5,7 +5,7 @@
 1. [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md)
 
 ```
-cp -f /root/hy2/build/hysteria-linux-amd64 /root/hysteria && chmod +x /root/hysteria
+cd /root && cp -f /root/hy2/build/hysteria-linux-amd64 /root/hysteria && chmod +x /root/hysteria
 ```
 
 2. 下载配置
