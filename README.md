@@ -67,11 +67,11 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
             "type": "socks",
             "tag": "proxy",
             "server": "127.0.0.1",
-            "server_port": 10808
+            "server_port": 50000
         },
 ```
 
-2. v2rayN：参考 由 v2rayN 提供 http/socks5 代理，将 客户端配置 中的 50000 改为 10808。服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 0。
+2. v2rayN：参考 由 v2rayN 提供 http/socks5 代理。服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 0。
 
 # [Hysteria](https://github.com/apernet/hysteria) 安装指南
 
