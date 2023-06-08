@@ -1,4 +1,6 @@
-## [Hysteria 2](https://github.com/apernet/hysteria/tree/wip-hy2) 安装指南
+# [Hysteria 2](https://github.com/apernet/hysteria/tree/wip-hy2) 安装指南
+
+## 服务端
 
 1. [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md)
 
@@ -35,23 +37,21 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 | 查看日志 | `journalctl -u hysteria --output cat -e` |
 | 实时日志 | `journalctl -u hysteria --output cat -f` |
 
-## v2rayN - V6.X 配置示例
+## 客户端
 
-<details><summary>点击查看</summary>
+### 由 v2rayN 提供 http/socks5 代理
 
-1. 下载自己编译的Windows客户端程序，重命名为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
+1. 下载自己编译的Windows客户端程序hysteria-windows-amd64.exe，重命名为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
 
-2. 下载客户端配置[Hysteria_2_config_client.yaml](https://github.com/chika0801/hysteria-install/blob/main/Hysteria_2_config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
+2. 下载客户端配置[Hysteria_2_config_client.yaml](https://raw.githubusercontent.com/chika0801/hysteria-install/main/Hysteria_2_config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
 3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
 
-![1](https://user-images.githubusercontent.com/88967758/227562172-1f811375-69b1-4f1e-938b-68abb13f0278.png)
+![hysteria](https://github.com/chika0801/hysteria-install/assets/88967758/853208a2-0000-47c1-b611-4b0ead01a626)
 
-小技巧：只要证书在有效期内，证书中包含的域名不用解析到VPS的IP。一份证书，在多个VPS上使用。
+# [Hysteria](https://github.com/apernet/hysteria) 安装指南
 
-</details>
-
-## [Hysteria](https://github.com/apernet/hysteria) 安装指南
+## 服务端
 
 1. 下载程序（**linux-amd64**）
 
@@ -126,7 +126,9 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 | 查看日志 | `journalctl -u hysteria --output cat -e` |
 | 实时日志 | `journalctl -u hysteria --output cat -f` |
 
-## v2rayN - V6.X 配置示例
+## 客户端
+
+### v2rayN - V6.X 配置示例
 
 <details><summary>点击查看</summary>
 
@@ -142,7 +144,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 </details>
 
-## Shadowrocket 配置示例
+### Shadowrocket 配置示例
 
 <details><summary>点击查看</summary><br>
 
@@ -164,7 +166,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 </details>
 
-## PassWall 配置示例
+### PassWall 配置示例
 
 <details><summary>点击查看</summary><br>
 
@@ -193,7 +195,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 </details>
 
-## ShadowSocksR Plus+ 配置示例
+### ShadowSocksR Plus+ 配置示例
 
 <details><summary>点击查看</summary><br>
 
