@@ -47,7 +47,7 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
 
-![hysteria](https://github.com/chika0801/hysteria-install/assets/88967758/853208a2-0000-47c1-b611-4b0ead01a626)
+![hysteria](https://github.com/chika0801/hysteria-install/assets/88967758/8044c172-7632-48f4-83ea-c711d688929d)
 
 ### 由 sing-box 提供 Tun 模式（透明代理），v2rayN 管理配置
 
