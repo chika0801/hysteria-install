@@ -49,6 +49,30 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 
 ![hysteria](https://github.com/chika0801/hysteria-install/assets/88967758/853208a2-0000-47c1-b611-4b0ead01a626)
 
+### 由 sing-box 提供 Tun 模式（透明代理），v2rayN 管理配置
+
+1. sing-box：参考 [sing-box Windows 客户端使用方法](https://github.com/chika0801/sing-box-examples/blob/main/Tun/README.md)，将 [sing-box Windows 客户端配置](https://github.com/chika0801/sing-box-examples/blob/main/Tun/config_client_windows.json) 进行如下修改。
+
+原内容
+```jsonc
+        {
+            "tag": "proxy",
+            // 粘贴你的客户端配置，需要保留 "tag": "proxy",
+        },
+```
+
+替换为
+```jsonc
+        {
+            "type": "socks",
+            "tag": "proxy",
+            "server": "127.0.0.1",
+            "server_port": 10808
+        },
+```
+
+2. v2rayN：参考 由 v2rayN 提供 http/socks5 代理，将 客户端配置 中的 50001 改为 10808。服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 0。
+
 # [Hysteria](https://github.com/apernet/hysteria) 安装指南
 
 ## 服务端
