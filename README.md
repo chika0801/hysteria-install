@@ -22,9 +22,10 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 
 4. 上传证书和私钥
 
+
+- 将证书文件改名为 **fullchain.cer**，将私钥文件改名为 **private.key**，将它们上传到 **/root** 目录
 - [使用acme申请SSL证书](https://github.com/chika0801/Xray-install/blob/main/acme.md)
 - [使用cerbot申请SSL证书](https://github.com/chika0801/Xray-install/blob/main/certbot.md)
-- 将证书文件改名为 **fullchain.cer**，将私钥文件改名为 **private.key**，将它们上传到 **/root** 目录
 
 5. 启动程序
 
