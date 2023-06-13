@@ -4,10 +4,14 @@
 
 ### 安装
 
-1. [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md)
+1. 编译程序
 
 ```
-cp -f /root/hy2/build/hysteria-linux-amd64 /root/hysteria && chmod +x /root/hysteria
+apt install -y golang git && cd /tmp && git clone -b wip-hy2 https://github.com/apernet/hysteria.git && cd ./hysteria/app/ && go build ./main.go
+```
+
+```
+cp -f ./main /root/hysteria && chmod +x /root/hysteria
 ```
 
 2. 下载配置
