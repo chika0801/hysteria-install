@@ -8,6 +8,7 @@
 
 ```
 cp -f /root/hy2/build/hysteria-linux-amd64 /root/hysteria && chmod +x /root/hysteria
+cp -f /root/hy2/build/hysteria-windows-amd64.exe /root/hysteria.exe
 ```
 
 2. 下载配置
