@@ -2,6 +2,8 @@
 
 ## 服务端
 
+### 安装
+
 1. [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md)
 
 ```
@@ -36,6 +38,12 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 | 配置 | **/root/hysteria_config.yaml** |
 | 查看日志 | `journalctl -u hysteria --output cat -e` |
 | 实时日志 | `journalctl -u hysteria --output cat -f` |
+
+### 卸载
+
+```
+systemctl disable --now hysteria && rm /root/hysteria && rm /root/hysteria_config.yaml && rm /etc/systemd/system/hysteria.service
+```
 
 ## 客户端
 
