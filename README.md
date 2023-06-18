@@ -6,8 +6,13 @@
 
 1. [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md)
 
+linux-amd64
 ```
 cp -f /root/hy2/build/hysteria-linux-amd64 /root/hysteria && chmod +x /root/hysteria
+```
+
+windows
+```
 cp -f /root/hy2/build/hysteria-windows-amd64.exe /root/hysteria.exe
 ```
 
