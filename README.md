@@ -55,7 +55,7 @@ systemctl disable --now hysteria && rm /root/hysteria && rm /root/hysteria_confi
 
 ## 客户端
 
-### 由 v2rayN 提供 http/socks5 代理
+### 由 v2rayN 提供 HTTP SOCKS5 代理
 
 1. 下载自己编译的Windows客户端程序hysteria-windows-amd64.exe，重命名为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
 
