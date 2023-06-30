@@ -4,7 +4,7 @@
 
 ### 安装
 
-1. [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md)
+1. [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md) 或 [下载程序](https://github.com/apernet/hysteria/actions/workflows/dev-build-hy2.yml)
 
 - **linux-amd64**
 
