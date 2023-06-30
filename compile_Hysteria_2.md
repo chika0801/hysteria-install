@@ -34,3 +34,15 @@ git pull
 python3 ./hyperbole.py build
 cd ..
 ```
+
+**linux-amd64**
+
+```
+cp -f /root/hy2/build/hysteria-linux-amd64 /root/hysteria && chmod +x /root/hysteria
+```
+
+**windows**
+
+```
+cp -f /root/hy2/build/hysteria-windows-amd64.exe /root/hysteria.exe
+```
