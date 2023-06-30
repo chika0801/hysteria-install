@@ -4,19 +4,15 @@
 
 ### 安装
 
-1. [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md) 或 [下载程序](https://github.com/apernet/hysteria/actions/workflows/dev-build-hy2.yml)
+1. [下载程序](https://github.com/apernet/hysteria/actions/workflows/dev-build-hy2.yml)
 
-- **linux-amd64**
-
-```
-cp -f /root/hy2/build/hysteria-linux-amd64 /root/hysteria && chmod +x /root/hysteria
-```
-
-- **windows**
+- 将 **hysteria-linux-amd64** 改名为 **hysteria**，将它上传到 **/root** 目录
 
 ```
-cp -f /root/hy2/build/hysteria-windows-amd64.exe /root/hysteria.exe
+chmod +x /root/hysteria
 ```
+
+- [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md)
 
 2. 下载配置
 
