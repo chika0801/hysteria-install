@@ -4,6 +4,14 @@ tls:
   cert: /root/fullchain.cer
   key: /root/private.key
 
+quic:
+  initStreamReceiveWindow: 16777216
+  maxStreamReceiveWindow: 16777216
+  initConnReceiveWindow: 33554432
+  maxConnReceiveWindow: 33554432
+  maxIdleTimeout: 5s
+  maxIncomingStreams: 4096
+
 auth:
   type: password
   password: chika
