@@ -53,7 +53,7 @@ systemctl disable --now hysteria && rm /root/hysteria && rm /root/hysteria_confi
 
 ### 由 v2rayN 提供 HTTP SOCKS5 代理
 
-1. 下载自己编译的Windows客户端程序hysteria-windows-amd64.exe，重命名为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
+1. 下载Windows客户端程序hysteria-windows-amd64.exe，重命名为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
 
 2. 下载客户端配置[Hysteria_2_config_client.yaml](https://github.com/chika0801/hysteria-install/blob/main/Hysteria_2_config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
