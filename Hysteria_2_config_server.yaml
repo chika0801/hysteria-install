@@ -19,5 +19,5 @@ auth:
 masquerade:
   type: proxy
   proxy:
-    url: https://www.deepl.com
+    url: https://quic.nginx.org
     rewriteHost: true
