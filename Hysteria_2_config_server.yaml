@@ -19,5 +19,5 @@ auth:
 masquerade:
   type: proxy
   proxy:
-    url: https://quic.nginx.org
+    url: https://http3check.net/
     rewriteHost: true
