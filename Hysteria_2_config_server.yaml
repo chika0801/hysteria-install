@@ -19,5 +19,5 @@ auth:
 masquerade:
   type: proxy
   proxy:
-    url: https://http3check.net/
+    url: https://http3check.net
     rewriteHost: true
