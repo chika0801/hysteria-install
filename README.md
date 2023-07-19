@@ -40,6 +40,8 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 | :--- | :--- |
 | 程序 | **/root/hysteria** |
 | 配置 | **/root/hysteria_config.yaml** |
+| 重启 | `systemctl restart hysteria` |
+| 状态 | `systemctl status hysteria` |
 | 查看日志 | `journalctl -u hysteria --output cat -e` |
 | 实时日志 | `journalctl -u hysteria --output cat -f` |
 
@@ -159,6 +161,8 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 | :--- | :--- |
 | 程序 | **/root/hysteria** |
 | 配置 | **/root/hysteria_config.json** |
+| 重启 | `systemctl restart hysteria` |
+| 状态 | `systemctl status hysteria` |
 | 查看日志 | `journalctl -u hysteria --output cat -e` |
 | 实时日志 | `journalctl -u hysteria --output cat -f` |
 
