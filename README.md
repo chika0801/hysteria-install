@@ -12,7 +12,7 @@
 chmod +x /usr/local/bin/hysteria
 ```
 
-- [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md)
+- [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_hysteria.md)
 
 2. 下载配置
 
