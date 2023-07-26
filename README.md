@@ -49,6 +49,9 @@ systemctl enable --now hysteria
 
 ```
 systemctl disable --now hysteria
+```
+
+```
 rm -f /usr/local/bin/hysteria /root/hysteria_config.yaml /etc/systemd/system/hysteria.service
 ```
 
