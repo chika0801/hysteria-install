@@ -17,13 +17,13 @@ chmod +x /usr/local/bin/hysteria
 2. 下载配置
 
 ```
-curl -Lo /root/hysteria_config.yaml https://raw.githubusercontent.com/chika0801/hysteria-install/main/Hysteria_2_config_server.yaml
+curl -Lo /root/hysteria_config.yaml https://raw.githubusercontent.com/chika0801/hysteria-install/main/config_server.yaml
 ```
 
 3. 下载systemctl配置
 
 ```
-curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/chika0801/hysteria-install/main/Hysteria_2_hysteria.service && systemctl daemon-reload
+curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/chika0801/hysteria-install/main/hysteria.service && systemctl daemon-reload
 ```
 
 4. 上传证书和私钥
@@ -58,7 +58,7 @@ rm -f /usr/local/bin/hysteria /root/hysteria_config.yaml /etc/systemd/system/hys
 
 1. 下载Windows客户端程序[hysteria-windows-amd64.exe](https://github.com/apernet/hysteria/actions/workflows/dev-build-hy2.yml)，重命名为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
 
-2. 下载客户端配置[Hysteria_2_config_client.yaml](https://github.com/chika0801/hysteria-install/blob/main/Hysteria_2_config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
+2. 下载客户端配置[Hysteria_2_config_client.yaml](https://github.com/chika0801/hysteria-install/blob/main/config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
 3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
 
