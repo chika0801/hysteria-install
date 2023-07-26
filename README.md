@@ -6,10 +6,10 @@
 
 1. [下载程序](https://github.com/apernet/hysteria/actions/workflows/dev-build-hy2.yml)
 
-- 将 **hysteria-linux-amd64** 改名为 **hysteria**，将它上传到 **/root** 目录
+- 将 **hysteria-linux-amd64** 改名为 **hysteria**，将它上传到 **/usr/local/bin** 目录
 
 ```
-chmod +x /root/hysteria
+chmod +x /usr/local/bin/hysteria
 ```
 
 - [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_Hysteria_2.md)
@@ -33,12 +33,12 @@ curl -Lo /etc/systemd/system/hysteria.service https://raw.githubusercontent.com/
 5. 启动程序
 
 ```
-systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
+systemctl enable --now hysteria
 ```
 
 | 项目 | |
 | :--- | :--- |
-| 程序 | **/root/hysteria** |
+| 程序 | **/usr/local/bin/hysteria** |
 | 配置 | **/root/hysteria_config.yaml** |
 | 重启 | `systemctl restart hysteria` |
 | 状态 | `systemctl status hysteria` |
@@ -48,7 +48,8 @@ systemctl enable --now hysteria && sleep 0.2 && systemctl status hysteria
 ### 卸载
 
 ```
-systemctl disable --now hysteria && rm /root/hysteria && rm /root/hysteria_config.yaml && rm /etc/systemd/system/hysteria.service
+systemctl disable --now hysteria
+rm -f /usr/local/bin/hysteria /root/hysteria_config.yaml /etc/systemd/system/hysteria.service
 ```
 
 ## 客户端
