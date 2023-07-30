@@ -42,8 +42,8 @@ systemctl enable --now hysteria
 | 配置 | **/root/hysteria_config.yaml** |
 | 重启 | `systemctl restart hysteria` |
 | 状态 | `systemctl status hysteria` |
-| 查看日志 | `journalctl -u hysteria --output cat -e` |
-| 实时日志 | `journalctl -u hysteria --output cat -f` |
+| 查看日志 | `journalctl -u hysteria -o cat -e` |
+| 实时日志 | `journalctl -u hysteria -o cat -f` |
 
 ### 卸载
 
