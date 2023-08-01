@@ -6,7 +6,7 @@
 
 1. [下载程序](https://github.com/apernet/hysteria/actions/workflows/dev-build-hy2.yml)
 
-- 将 **hysteria-linux-amd64** 改名为 **hysteria**，将它上传到 **/usr/local/bin** 目录
+- 将 **hysteria-linux-amd64** 改名为 **hysteria**，将它上传到 **/usr/local/bin** 目录，执行下面的命令
 
 ```
 chmod +x /usr/local/bin/hysteria
