@@ -48,11 +48,7 @@ systemctl enable --now hysteria
 ### 卸载
 
 ```
-systemctl disable --now hysteria
-```
-
-```
-rm -f /usr/local/bin/hysteria /root/hysteria_config.yaml /etc/systemd/system/hysteria.service
+systemctl disable --now hysteria && rm -f /usr/local/bin/hysteria /root/hysteria_config.yaml /etc/systemd/system/hysteria.service
 ```
 
 ## 客户端
