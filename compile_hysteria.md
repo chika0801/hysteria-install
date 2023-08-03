@@ -1,3 +1,5 @@
+准备环境
+
 ```
 curl -sLo go.tar.gz https://go.dev/dl/go1.20.7.linux-amd64.tar.gz
 tar -C /usr/local -xzf go.tar.gz
