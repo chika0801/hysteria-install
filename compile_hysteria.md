@@ -37,9 +37,16 @@ python3 ./hyperbole.py build
 cd ..
 ```
 
+复制文件
+
 **linux-amd64**
 
 ```
 cp -f /root/hy2/build/hysteria-linux-amd64 /usr/local/bin/hysteria && chmod +x /usr/local/bin/hysteria
 ```
 
+**windows-amd64**
+
+```
+cp -f /root/hy2/build/hysteria-windows-amd64.exe /root/hysteria.exe
+```
