@@ -5,10 +5,6 @@ auth: chika
 tls:
   sni: chika.example.com
 
-bandwidth:
-  up: 50 mbps
-  down: 150 mbps
-
 fastOpen: true
 
 socks5:
