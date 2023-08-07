@@ -5,6 +5,12 @@ auth: chika
 tls:
   sni: chika.example.com
 
+quic:
+  initStreamReceiveWindow: 16777216
+  maxStreamReceiveWindow: 16777216
+  initConnReceiveWindow: 33554432
+  maxConnReceiveWindow: 33554432
+
 fastOpen: true
 
 socks5:
