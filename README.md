@@ -53,7 +53,7 @@ systemctl disable --now hysteria && rm -f /usr/local/bin/hysteria /root/hysteria
 
 ## 客户端
 
-### 由 v2rayN 提供 HTTP SOCKS5 代理，路由规则由 v2rayN 提供
+### 由 v2rayN 提供 HTTP SOCKS5 代理，由 v2rayN 提供路由规则
 
 1. 下载Windows客户端程序[hysteria-windows-amd64.exe](https://github.com/apernet/hysteria/actions/workflows/dev-build-hy2.yml)，重命名为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
 
@@ -63,7 +63,7 @@ systemctl disable --now hysteria && rm -f /usr/local/bin/hysteria /root/hysteria
 
 ![hysteria](https://github.com/chika0801/hysteria-install/assets/88967758/8044c172-7632-48f4-83ea-c711d688929d)
 
-### 由 sing-box 提供 Tun 模式（透明代理），路由规则由 sing-box 提供，v2rayN 管理配置
+### 由 sing-box 提供 Tun 模式（透明代理），由 sing-box 提供路由规则，用 v2rayN 管理配置
 
 1. sing-box：参考[Windows 使用方法](https://github.com/chika0801/sing-box-examples/blob/main/README.md)，将[客户端配置](https://github.com/chika0801/sing-box-examples/blob/main/Tun/config_client_windows.json)进行如下修改。
 
