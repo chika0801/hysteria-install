@@ -85,4 +85,4 @@ systemctl disable --now hysteria && rm -f /usr/local/bin/hysteria /root/hysteria
         },
 ```
 
-2. v2rayN：参考 由 v2rayN 提供 http/socks5 代理。服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 tuic ——> Socks端口 0。
+2. v2rayN：服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 0。
