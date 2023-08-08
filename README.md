@@ -59,7 +59,7 @@ systemctl disable --now hysteria && rm -f /usr/local/bin/hysteria /root/hysteria
 
 2. 下载客户端配置[config_client.yaml](https://github.com/chika0801/hysteria-install/blob/main/config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
-3. 服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
+3. v2rayN：服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
 
 ![hysteria](https://github.com/chika0801/hysteria-install/assets/88967758/8044c172-7632-48f4-83ea-c711d688929d)
 
