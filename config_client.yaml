@@ -9,7 +9,5 @@ bandwidth:
   up: 30 mbps
   down: 150 mbps
 
-fastOpen: true
-
 socks5:
   listen: 127.0.0.1:50000
