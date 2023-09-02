@@ -17,9 +17,3 @@ resolver:
 acl:
   inline: 
     - reject(all, udp/443)
-
-masquerade:
-  type: proxy
-  proxy:
-    url: https://www.lovelive-anime.jp
-    rewriteHost: true
