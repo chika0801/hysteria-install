@@ -11,7 +11,7 @@ auth:
 resolver:
   type: https
   https:
-    addr: 1.1.1.1:443 
+    addr: 1.1.1.1:443
     timeout: 10s
 
 acl:
