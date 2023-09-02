@@ -9,10 +9,10 @@ auth:
   password: chika
 
 resolver:
+  type: https
   https:
     addr: 1.1.1.1:443 
     timeout: 10s
-    sni: cloudflare-dns.com
 
 acl:
   inline: 
