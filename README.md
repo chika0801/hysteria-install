@@ -1,4 +1,4 @@
-# [Hysteria 2](https://github.com/apernet/hysteria/tree/wip-hy2) 安装指南
+# [Hysteria 2](https://github.com/apernet/hysteria) 安装指南
 
 ## 服务端
 
