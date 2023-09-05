@@ -1,4 +1,4 @@
-server: 10.0.0.1:443
+server: "10.0.0.1:443" # IPv6 "[fc00::]:443"
 
 auth: chika
 
