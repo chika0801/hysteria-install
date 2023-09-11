@@ -4,7 +4,7 @@
 
 ### 安装
 
-1. 下载程序（**linux-amd64**）或 [编译程序](https://github.com/chika0801/hysteria-install/blob/main/compile_hysteria.md)
+1. 下载程序（**linux-amd64**）或 [编译程序](compile_hysteria.md)
 
 ```
 curl -Lo /root/hysteria https://github.com/apernet/hysteria/releases/latest/download/hysteria-linux-amd64 && chmod +x /root/hysteria && mv -f /root/hysteria /usr/local/bin
@@ -53,7 +53,7 @@ systemctl disable --now hysteria && rm -f /usr/local/bin/hysteria /root/hysteria
 
 1. 下载Windows客户端程序[hysteria-windows-amd64.exe](https://github.com/apernet/hysteria/releases/latest/download/hysteria-windows-amd64.exe)，重命名为hysteria.exe，复制到v2rayN\bin\hysteria文件夹。
 
-2. 下载客户端配置[config_client.yaml](https://github.com/chika0801/hysteria-install/blob/main/config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
+2. 下载客户端配置[config_client.yaml](config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 
 3. v2rayN：服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
 
