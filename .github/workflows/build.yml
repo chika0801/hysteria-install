@@ -26,7 +26,7 @@ jobs:
     - name: go build
       run: | 
         cd hysteria
-        echo 'export HY_APP_PLATFORMS="windows/amd64,linux/amd64"' >> $GITHUB_ENV
+        export HY_APP_PLATFORMS="linux/amd64,windows/amd64"
         python3 ./hyperbole.py build
 
     - name: Upload files
