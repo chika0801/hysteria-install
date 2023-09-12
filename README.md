@@ -50,8 +50,6 @@ systemctl disable --now hysteria && rm -f /usr/local/bin/hysteria /root/hysteria
 2. 下载客户端配置[config_client.yaml](config_client.yaml)，修改chika.example.com为证书中包含的域名，修改10.0.0.1为VPS的IP。
 3. v2rayN：服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 50000
 
-![hysteria](https://github.com/chika0801/hysteria-install/assets/88967758/8044c172-7632-48f4-83ea-c711d688929d)
-
 ### 由 sing-box 提供 Tun 模式（透明代理），由 sing-box 提供路由规则
 
 1. sing-box：参考[Windows 使用方法](https://github.com/chika0801/sing-box-examples/blob/main/README.md)，将[客户端配置](https://github.com/chika0801/sing-box-examples/blob/main/Tun/config_client_windows.json)进行如下修改。
