@@ -3,7 +3,7 @@
 ```
 curl -sLo go.tar.gz https://go.dev/dl/go1.21.0.linux-amd64.tar.gz
 rm -rf /usr/local/go
-tar -C /usr/local -xzf go.tar.gz
+tar -C /usr/local/ -xzf go.tar.gz
 rm go.tar.gz
 echo -e "export PATH=$PATH:/usr/local/go/bin" > /etc/profile.d/go.sh
 source /etc/profile.d/go.sh
@@ -23,8 +23,8 @@ echo $HY_APP_PLATFORMS
 首次编译
 
 ```
-git clone -b wip-hy2 --single-branch https://github.com/apernet/hysteria.git hy2
-cd hy2
+git clone https://github.com/apernet/hysteria.git
+cd hysteria
 python3 ./hyperbole.py build
 cd ..
 ```
@@ -32,7 +32,7 @@ cd ..
 再次编译
 
 ```
-cd hy2
+cd hysteria
 git pull
 python3 ./hyperbole.py build
 cd ..
@@ -43,11 +43,11 @@ cd ..
 **linux-amd64**
 
 ```
-cp -f /root/hy2/build/hysteria-linux-amd64 /usr/local/bin/hysteria && chmod +x /usr/local/bin/hysteria
+cp -f hysteria/build/hysteria-linux-amd64 /usr/local/bin/hysteria && chmod +x /usr/local/bin/hysteria
 ```
 
 **windows-amd64**
 
 ```
-cp -f /root/hy2/build/hysteria-windows-amd64.exe /root/hysteria.exe
+cp -f hysteria/build/hysteria-windows-amd64.exe /root/hysteria.exe
 ```
