@@ -43,7 +43,8 @@ cd ..
 **linux-amd64**
 
 ```
-cp -f hysteria/build/hysteria-linux-amd64 /usr/local/bin/hysteria && chmod +x /usr/local/bin/hysteria
+cp -f hysteria/build/hysteria-linux-amd64 /usr/local/bin/hysteria
+chmod +x /usr/local/bin/hysteria
 ```
 
 **windows-amd64**
