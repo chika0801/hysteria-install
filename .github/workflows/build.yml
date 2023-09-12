@@ -32,7 +32,7 @@ jobs:
     - name: Upload files
       uses: actions/upload-artifact@v3
       with:
-        name: sing-box
+        name: hysteria
         path: |
           hysteria/build/hysteria-linux-amd64
           hysteria/build/hysteria-windows-amd64.exe
