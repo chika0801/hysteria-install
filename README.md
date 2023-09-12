@@ -7,7 +7,7 @@
 1. 下载程序（**linux-amd64**）或 [编译程序](compile_hysteria.md)
 
 ```
-curl -Lo /root/hysteria https://github.com/apernet/hysteria/releases/latest/download/hysteria-linux-amd64 && chmod +x /root/hysteria && mv -f /root/hysteria /usr/local/bin
+curl -Lo hysteria https://github.com/apernet/hysteria/releases/latest/download/hysteria-linux-amd64 && chmod +x hysteria && mv -f hysteria /usr/local/bin/
 ```                 
 
 2. 下载配置
