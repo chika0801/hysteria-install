@@ -49,5 +49,5 @@ cp -f hysteria/build/hysteria-linux-amd64 /usr/local/bin/hysteria && chmod +x /u
 **windows-amd64**
 
 ```
-cp -f hysteria/build/hysteria-windows-amd64.exe /root/hysteria.exe
+cp -f hysteria/build/hysteria-windows-amd64.exe ./hysteria.exe
 ```
