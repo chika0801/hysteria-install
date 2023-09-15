@@ -26,11 +26,14 @@ jobs:
         cd hysteria
         export HY_APP_PLATFORMS="linux/amd64,windows/amd64"
         python3 ./hyperbole.py build
+        cd hysteria/build/
+        mv hysteria-linux-amd64 hysteria
+        mv hysteria-windows-amd64.exe hysteria.exe
 
     - name: Upload files
       uses: actions/upload-artifact@v3
       with:
         name: hysteria
         path: |
-          hysteria/build/hysteria-linux-amd64
-          hysteria/build/hysteria-windows-amd64.exe
+          hysteria/build/hysteria
+          hysteria/build/hysteria.exe
