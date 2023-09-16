@@ -81,4 +81,20 @@ systemctl disable --now hysteria && rm -f /usr/local/bin/hysteria /root/hysteria
         },
 ```
 
+检查此处有
+
+```
+            {
+                "process_name": [ // 直连的 Windows 可执行程序
+                    "xray.exe",
+                    "hysteria.exe",
+                    "tuic.exe",
+                    "tuic-client.exe",
+                    "juicity.exe",
+                    "juicity-client.exe"
+                ],
+                "outbound": "direct"
+            },
+```
+
 2. v2rayN：服务器 ——> 添加自定义配置服务器 ——> 浏览 ——> 选择客户端配置 ——> Core类型 hysteria ——> Socks端口 0。
