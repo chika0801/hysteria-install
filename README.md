@@ -81,7 +81,7 @@ systemctl disable --now hysteria && rm -f /usr/local/bin/hysteria /root/hysteria
         },
 ```
 
-检查此处有
+检查此处有 **hysteria.exe**
 
 ```
             {
