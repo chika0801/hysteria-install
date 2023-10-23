@@ -83,7 +83,7 @@ systemctl disable --now hysteria && rm -f /usr/local/bin/hysteria /root/hysteria
 
 检查此处有 **hysteria.exe**
 
-```
+```jsonc
             {
                 "process_name": [ // 直连的 Windows 可执行程序
                     "xray.exe",
