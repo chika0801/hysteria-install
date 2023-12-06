@@ -4,6 +4,10 @@ tls:
   cert: /root/fullchain.cer
   key: /root/private.key
 
+bandwidth:
+  up: 100 mbps
+  down: 20 mbps
+
 auth:
   type: password
   password: chika
