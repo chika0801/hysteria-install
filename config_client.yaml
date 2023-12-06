@@ -6,8 +6,8 @@ tls:
   sni: chika.example.com
 
 bandwidth:
-  up: 30 mbps
-  down: 150 mbps
+  up: 20 mbps
+  down: 100 mbps
 
 socks5:
   listen: 127.0.0.1:50000
