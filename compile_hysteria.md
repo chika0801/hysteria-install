@@ -15,7 +15,7 @@ apt install -y git python3
 ```
 
 ```
-echo -e 'export HY_APP_PLATFORMS="linux/amd64,windows/amd64"' >> /etc/environment
+echo -e 'HY_APP_PLATFORMS="linux/amd64,windows/amd64"' >> /etc/environment
 export HY_APP_PLATFORMS="linux/amd64,windows/amd64"
 echo $HY_APP_PLATFORMS
 ```
