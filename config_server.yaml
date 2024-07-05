@@ -18,6 +18,10 @@ resolver:
     addr: 1.1.1.1:443
     timeout: 10s
 
+sniff:
+  enable: true 
+  timeout: 2s 
+
 acl:
   inline: 
     - reject(all, udp/443)
